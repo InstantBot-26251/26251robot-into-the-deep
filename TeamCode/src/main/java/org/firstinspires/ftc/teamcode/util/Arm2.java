@@ -27,10 +27,10 @@ public class Arm2 {
     public PIDFController pivotPid;
     public PIDFController slidePid;
 
-    public static final double ARM_KP = 1.2; // TODO: TUNE PIDS
-    public static final double ARM_KI = 0.0;
-    public static final double ARM_KD = 0.2;
-    public static final double ARM_KF = 1.0;
+    public static double ARM_KP = 1.2;
+    public static double ARM_KI = 0.0;
+    public static double ARM_KD = 0.2;
+    public static double ARM_KF = 1.0;
 
     public static double pivotKp = 1.15;
     public static double pivotKi = 0;
