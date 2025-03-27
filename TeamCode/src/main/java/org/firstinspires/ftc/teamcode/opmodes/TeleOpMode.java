@@ -53,10 +53,10 @@ public class TeleOpMode extends OpMode {
         leftRear.setZeroPowerBehavior(DcMotor.ZeroPowerBehavior.BRAKE);
         rightRear.setZeroPowerBehavior(DcMotor.ZeroPowerBehavior.BRAKE);
         rightFront.setZeroPowerBehavior(DcMotor.ZeroPowerBehavior.BRAKE);
-
-        // Initialize follower
-        follower = new Follower(hardwareMap);
-        follower.startTeleopDrive();
+//
+//        // Initialize follower
+//        follower = new Follower(hardwareMap);
+//        follower.startTeleopDrive();
 
     }
 
