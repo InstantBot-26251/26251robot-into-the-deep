@@ -67,8 +67,8 @@ public class TeleOpMode extends OpMode {
         arm.setSlidePowerAuto();
         // Read inputs for controlling chassis
         double y = AvyuktResponseCurve(gamepad1.left_stick_y);
-        double x = -AvyuktResponseCurve(gamepad1.left_stick_x);
-        double rx = -AvyuktResponseCurve(gamepad1.right_stick_x);
+        double x = AvyuktResponseCurve(gamepad1.left_stick_x);
+        double rx = AvyuktResponseCurve(gamepad1.right_stick_x);
         double y2 = IshaanResponseCurve(gamepad2.left_stick_y);
         double y3 = IshaanResponseCurve(gamepad2.right_stick_y);
 
