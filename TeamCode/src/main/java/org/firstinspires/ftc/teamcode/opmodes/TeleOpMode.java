@@ -63,8 +63,7 @@ public class TeleOpMode extends OpMode {
     @Override
     public void loop() {
         // follower.setTeleOpMovementVectors(-gamepad1.left_stick_y, -gamepad1.left_stick_x, -gamepad1.right_stick_x);
-        arm.setPivotPowerAuto();
-        arm.setSlidePowerAuto();
+
         // Read inputs for controlling chassis
         double y = AvyuktResponseCurve(gamepad1.left_stick_y);
         double x = -AvyuktResponseCurve(gamepad1.left_stick_x);
